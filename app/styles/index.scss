@@ -1,12 +1,23 @@
+@import 'reset';
 @import 'fonts';
 @import 'headings';
 
 body {
   font-family: 'Source Sans Pro', serif;
-  background: #f1f1f1;
+}
+
+.wrap {
+  max-width: 800px;
+  margin: 1em auto;
 }
 
 .puppers {
   display: block;
   max-width: 300px;
+  transition: transform 500ms ease;
+  transform-origin: center center;
+
+  &:hover {
+    transform: scale(0.8);
+  }
 }
