@@ -1,0 +1,55 @@
+# Packages #
+############
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+
+
+#### Build system ####
+
+node_modules/
+**/bower_components/
+build/
+dist/
+public/
+.tmp
+.sass-cache
+*.css.map
+
+
+
+
+# Logs
+logs
+*.log
+
+
+# Debug log from npm
+npm-debug.log
