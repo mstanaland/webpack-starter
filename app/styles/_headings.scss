@@ -1,10 +1,4 @@
 h1 {
   font-size: 50px;
   font-weight: normal;
-  transition: all 1s ease;
-  transform-origin: left center;
-
-  &:hover {
-    transform: scale(0.7);
-  }
 }
