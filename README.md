@@ -1,11 +1,17 @@
-# Webpack starter
+# Old school Webpack starter
 
-Basic little repo to get started making an old-school html and css site.
+Project starter that uses Webpack, but just to do some traditional html,
+css transforms, and serving.
 
 A tiny bit of magic is included:
 * Sass converted to css
 * css is auto-prefixed
 * ES2015+ converted to ES5
+
+## Get started
+1. `yarn install`
+2. `yarn dev` to start Browsersync and watch for changes
+3. `yarn build` to build production files in /dist
 
 ## Create as many html files in /app as you want
 HTML files will be copied to the dist folder.
