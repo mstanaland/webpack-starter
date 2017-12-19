@@ -36,7 +36,7 @@ module.exports = {
   			loader: 'url-loader?limit=10000&mimetype=application/font-woff&name=fonts/[name].[ext]'
   		},
       {
-  			test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+  			test: /\.(ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
   			loader: 'file-loader?name=fonts/[name].[ext]'
   		},
       {
@@ -50,6 +50,19 @@ module.exports = {
           ],
           publicPath: '/',
         })
+      },
+      {
+        test: /\.(jpg|png|svg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'images/',
+              publicPath: '/'
+            }
+          }
+        ]
       }
     ]
   },
