@@ -20,7 +20,7 @@ HTML files will be copied to the dist folder.
 In each HTML file, use
 ```html
 <link type="text/css" rel="stylesheet" href="styles/[FILENAME].css">
-```.
+```
 Where [FILENAME] is name of the Sass file imported in the index javascript file.
 
 
@@ -28,7 +28,7 @@ Where [FILENAME] is name of the Sass file imported in the index javascript file.
 In each HTML file, use
 ```html
 <script type="text/javascript" src="js/[FILENAME].js"></script>
-```.
+```
 Where [FILENAME] is name of the JS file to use (likely index.js).
 
 
