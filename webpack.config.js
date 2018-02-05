@@ -23,13 +23,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-        use: [{
-          loader: 'babel-loader',
-          options: {
-            presets: ['env']
-          }
-        }]
+        test: /\.(js|jsx)$/,
+        loader: "babel-loader",
+        exclude: /node_modules/,
+        options: {
+          cacheDirectory: false
+        }
       },
       {
   			test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
